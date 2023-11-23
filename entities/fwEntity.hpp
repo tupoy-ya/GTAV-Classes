@@ -57,7 +57,8 @@ namespace rage
 
         enum class EntityFlags
         {
-            IS_VISIBLE = (1 << 0)
+            IS_VISIBLE = (1 << 0),
+            NO_GRAVITY = (1 << 17)
         };
 
         class CBaseModelInfo* m_model_info; //0x0020
